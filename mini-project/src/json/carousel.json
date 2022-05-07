@@ -1,0 +1,20 @@
+{
+    "resources" : [
+        {
+            "title": "JKT48",
+            "link" : "https://jkt48.com/kemilaupb?lang=id",
+            "imageUrl" : "https://jkt48.com/images/banner.home.kemilaupb.id.jpg"
+        },
+        {
+            "title": "JKT48",
+            "link" : "https://youtu.be/5V19CBzU9nk",
+            "imageUrl" : "https://jkt48.com/images/banner.22nd-single.jpg"
+        },
+        {
+            "title": "JKT48",
+            "link" : "https://jkt48.com/jkt48merayakanpernikahanmu?lang=id",
+            "imageUrl" : "https://jkt48.com/images/banner.home.rapsodi.married.jpg"
+            
+        }
+    ]
+}
