@@ -8,7 +8,7 @@ const Header = () => {
       <div className="12pro:h-custom-60px w-full md:h-custom-130px lg:h-custom-120px bg-white-500 12pro:sticky md:sticky lg:sticky xl:sticky">
         {" "}
         {/* frame navbar */}
-        <div className="12pro:flex 12pro:gap-71px 12pro:items-center md:flex md:gap-250px lg:gap-500px xl:gap-850px">
+        <div className="12pro:flex 12pro:gap-10 12pro:items-center md:flex md:gap-250px lg:gap-500px xl:gap-850px">
           {" "}
           {/* div logo & link */}
           <div>

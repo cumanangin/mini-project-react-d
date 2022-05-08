@@ -5,8 +5,8 @@ module.exports = {
       '10px' : '0.625rem' /* 10px */, 
     },
     fontSize:{
-      '13px' : '0.813rem', /* 13px */
-      '18px' : '1.125rem', /* 18px */
+      5 : ['5px','16px'], /* 5px */
+      10: ['10px','12px'], /* 10px */
     },
     screens:{
       '12pro' : '390px',
@@ -25,18 +25,23 @@ module.exports = {
         'content-news-box':'-8px -8px 4px rgba(0, 0, 0, 0.25)',
       },
       width: {
+        'custom-58px': '3,625rem' /* 58px */,
         'custom-80px': '5rem' /* 80px */,
         'custom-390px': '24.375rem' /* 390px */,
         'custom-120px' : '7.5rem' /* 120px */,
         'custom-173px' : '10.813rem' /* 173px */,
         'custom-250px' : '15.625rem' /* 250px */,
         'custom-290px' : '18.125rem' /* 290px */,
+        'custom-366px' : '22,875rem' /* 366px */,
+        'custom-356px' : '22,25rem' /* 356px */,
+        
         
       },
       height:{
         'custom-25px' : '1.563rem' /* 25px */,
         'custom-60px' : '3.75rem' /* 60px */,
         'custom-52px' : '3.25rem' /* 52px */,
+        'custom-100px' : '6,25rem' /* 100px */,
         'custom-120px' : '7.5rem' /* 120px */,
         'custom-130px' : '8.125rem' /* 130px */,
         'custom-170px' : '10.625rem' /* 170px */,
@@ -46,7 +51,9 @@ module.exports = {
       },
       margin: {
         'custom-2px' : '0.125rem' /* custom-2px */,
+        'custom-5px' : '0,3125rem' /* custom-5px */,
         'custom-20px' : '1.25rem' /* 20px */,
+        'custom-15px' : '0,9375rem' /* 15px */,
         'custom-17px' : '1.063rem' /* 17px */,
         'custom-18px' : '1.125rem' /* 18px */,
         'custom-2px' : '0.125rem' /* 2px */,
@@ -60,6 +67,7 @@ module.exports = {
       },
       padding:{
         '2px' : '0.125rem' /* 2px */,
+        '5px' : '0,3125rem' /* 5px */,
         '30px' : '1,875rem' /* 30px */,
         '35px' : '2,18755rem' /* 35px */,
         '50px' : '3.125rem' /* 50px */,
@@ -110,7 +118,31 @@ module.exports = {
     '700': '#bdb3b7', 
     '800': '#978f92', 
     '900': '#7b7578'
-}
+},
+'torea-bay': {
+  '50': '#f3f4fa', 
+  '100': '#e6e9f5', 
+  '200': '#c1c9e6', 
+  '300': '#9ba8d7', 
+  '400': '#5067b8', 
+  '500': '#05269a', 
+  '600': '#05228b', 
+  '700': '#041d74', 
+  '800': '#03175c', 
+  '900': '#02134b'
+},
+'regent-gray': {
+  '50': '#fafafa', 
+  '100': '#f4f5f5', 
+  '200': '#e4e5e7', 
+  '300': '#d3d6d9', 
+  '400': '#b2b7bc', 
+  '500': '#91989f', 
+  '600': '#83898f', 
+  '700': '#6d7277', 
+  '800': '#575b5f', 
+  '900': '#474a4e'
+},
     },
   },
   plugins: [],
