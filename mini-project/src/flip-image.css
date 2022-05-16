@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1024px){
+	.flip-image:hover{
+        transform: rotateY(360deg);
+    }
+}
+
+@media only screen and (min-width: 390px){
+	.flip-image:active{
+        transform: rotateY(360deg);
+        
+    }
+}

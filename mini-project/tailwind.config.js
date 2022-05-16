@@ -3,10 +3,20 @@ module.exports = {
   theme: {
     borderRadius:{
       '10px' : '0.625rem' /* 10px */, 
+      '2xl' : '1rem' /* 16px */,
+      '40px' : '2.5rem' /* 40px */,
     },
     fontSize:{
       5 : ['5px','16px'], /* 5px */
       10: ['10px','12px'], /* 10px */
+      14: ['14px','16px'], /* 10px */
+      'base': '1rem',
+      'lg': '1.125rem',
+      'xl': '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
     },
     screens:{
       '12pro' : '390px',
@@ -17,6 +27,12 @@ module.exports = {
       '2xl' : '1536px',
     },
     extend: {
+      dropShadow:{
+        'custom1' : '0px 5px 4px rgba(0, 0, 0, 0.25)',
+      },
+      rotate: {
+        '360': '360deg',
+      },
       scale:{
         'reverse' : 'matrix(-1, 0, 0, 1, 0, 0)'
       },
@@ -32,10 +48,18 @@ module.exports = {
         'custom-173px' : '10.813rem' /* 173px */,
         'custom-250px' : '15.625rem' /* 250px */,
         'custom-290px' : '18.125rem' /* 290px */,
+        'custom-300px' : '18.75rem' /* 300px */,
         'custom-366px' : '22,875rem' /* 366px */,
         'custom-356px' : '22,25rem' /* 356px */,
-        
-        
+        'custom-400px' : '25rem' /* 400px */,
+        'custom-500px' : '31.25rem' /* 500px */,
+        'custom-550px' : '34.375rem' /* 550px */,
+        'custom-646px' : '40.375rem' /* 646px */,
+        'custom-655px' : '40.938rem' /* 655px */,
+        'custom-710px' : '44,375rem' /* 710px */,
+        'custom-980px' : '61.375rem' /* 980px */,
+        'custom-1011px' : '63.188rem' /* 1011px */,
+        'custom-1350px' : '81,25rem' /* 1350px */,
       },
       height:{
         'custom-25px' : '1.563rem' /* 25px */,
@@ -48,6 +72,12 @@ module.exports = {
         'custom-210px' : '13.125rem' /* 210px */,
         'custom-250px' : '15.625rem' /* 250px */,
         'custom-300px' : '18.75rem' /* 300px */,
+        'custom-356px' : '22,25rem' /* 356px */,
+        'custom-400px' : '25rem' /* 400px */,
+        'custom-456px' : '28.5rem' /* 456px */,
+        'custom-600px' : '37,5rem' /* 600px */,
+        'custom-710px' : '44,5rem' /* 710px */,
+        
       },
       margin: {
         'custom-2px' : '0.125rem' /* custom-2px */,
@@ -130,6 +160,18 @@ module.exports = {
   '700': '#041d74', 
   '800': '#03175c', 
   '900': '#02134b'
+},
+'lochmara': {
+  '50': '#f4f8fc', 
+  '100': '#e9f2f9', 
+  '200': '#c7deef', 
+  '300': '#a5cae5', 
+  '400': '#62a3d2', 
+  '500': '#1e7bbe', 
+  '600': '#1b6fab', 
+  '700': '#175c8f', 
+  '800': '#124a72', 
+  '900': '#0f3c5d'
 },
 'regent-gray': {
   '50': '#fafafa', 
