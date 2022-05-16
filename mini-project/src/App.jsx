@@ -1,6 +1,8 @@
 import Home from './pages/Home';
 import News from './pages/News';
 import Members from './pages/Members';
+import NotFound from './pages/NotFound';
+
 import { ApolloProvider } from '@apollo/client';
 import client from './apollo-client';
 
@@ -23,7 +25,7 @@ function App() {
               <Route path="/news" element={<News />} />
               <Route path="/members" element={<Members />} />
               <Route path="/members/:id" element={<DetailMembers />} />
-              {/*<Route path="*" element={<NotFound />} /> */}
+              <Route path="*" element={<NotFound />} />
           </Routes>
     </BrowserRouter>
     </ApolloProvider>
