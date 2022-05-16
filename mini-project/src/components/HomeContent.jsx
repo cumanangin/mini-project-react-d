@@ -39,13 +39,13 @@ const HomeContent = () => {
 
               {/* INI CONTENT */}
               <div className='flex 12pro:gap-2'> {/* header news contents */}
-              <img src={TagEvent} alt="" className='12pro:w-12 lg:w-16' />
+              <img src={TagOther} alt="" className='12pro:w-12 lg:w-16' />
               <p className='12pro:text-lg 12pro:font-normal lg:text-xl'>
-                22 April 2022
+              8 April 2022
                 </p> 
               </div>
               <div className='12pro:text-10 lg:text-base'> {/* isi linked content */}
-              <a href='https://jkt48.com/news/detail/id/1555?lang=id'>Pengumuman Mengenai Event 2-Shot Online CHEKICHA X JKT48</a>
+              <a href='https://jkt48.com/news/detail/id/1554?lang=id'>Pengumuman Mengenai JKT48 Private Message Generasi 10 JKT48</a>
               </div>
               </div>
           </div>
