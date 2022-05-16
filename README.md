@@ -4,15 +4,17 @@ Mini Project yang dibuat adalah mencoba mendesain ulang tampilan website Officia
 
 Beberapa problem dialami seperti pendesain-an tampilan yang responsive, logic, dan pengimplementasian desain. Akan tetapi dapat diselesaikan dengan membaca beberapa referensi yang ada di Internet.<br><br>
 
-## Detail Menu pada Website
+## Detail Menu Home pada Website
 Pada menu Home terdapat header/navbar yang diterapkan kepada semua menu (kecuali Shop), serta konten seperti beberapa news yang bisa dilihat pada laman ini, dan terdapat tombol selengkapnya yang akan mengarahkan user ke menu News.
 
 ![This is an image](./screenshot/home%20menu/2022-05-16%20(24).png)
 
+## Detail Menu News pada Website
 Pada menu News, user dapat melihat news yang ada pada website ini. Dan bila diklik judul laman tersebut, akan ter-referensi news yang bersangkutan langsung ke laman/website Official JKT48. 
 
 ![This is an image](./screenshot/news%20menu/2022-05-16%20(16).png)
 
+## Detail Menu Members pada Website
 Pada menu Members, di sini user dapat melihat foto pada member. Untuk pengguna ber-pixel 390px hingga tablet, klik name card yang ada pada web. Sehingga akan ada animasi flip untuk menampilkan foto member yang bersangkutan. Dan bila gambar diklik kembali, akan mengarahkan pengguna untuk melihat detail dari member yang diklik. Untuk pengguna PC, user dapat melihat gambar dengan menghover cursor pada name card, sehingga akan menganimasikan flip pada objek gambar. Dan bila klik gambar, maka akan dialihkan juga ke laman detail member yang diklik. Tambahan, karena menu ini mengambil data dari server yakni Hasura. Menu akan mengalami loading, saat loading memiliki animasi loadingnya juga loh !!<br><br>
 
 ## Animasi Loading
