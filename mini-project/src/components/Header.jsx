@@ -16,11 +16,9 @@ const Header = () => {
             {/* div for logo */}
             {/* <a href="/"> */}
             <Link to="/">
-
-
-            <img
-              src={Logo}
-              className="12pro:w-custom-80px 12pro:h-custom-25px 12pro:ml-custom-20px  12pro:left-5 12pro:mt-custom-17px 12pro:mb-custom-18px 
+              <img
+                src={Logo}
+                className="12pro:w-custom-80px 12pro:h-custom-25px 12pro:ml-custom-20px  12pro:left-5 12pro:mt-custom-17px 12pro:mb-custom-18px 
               md:w-custom-173px
               md:h-custom-52px
               md:my-custom-39px
@@ -32,7 +30,7 @@ const Header = () => {
               xl:mb-custom-34px
               xl:ml-custom-60px"
               />
-              </Link>
+            </Link>
             {/* </a> */}
           </div>
           <div className="">
