@@ -7,6 +7,7 @@ import { ApolloProvider } from '@apollo/client';
 import client from './apollo-client';
 
 import DetailMembers from './components/DetailMembers';
+
 import {
   BrowserRouter,
   Routes,
@@ -20,8 +21,7 @@ function App() {
     <ApolloProvider client = {client}>
     <BrowserRouter>
           <Routes>
-              <Route path="/" element={<Home />}
-              />
+              <Route path="/" element={<Home />}/>
               <Route path="/news" element={<News />} />
               <Route path="/members" element={<Members />} />
               <Route path="/members/:id" element={<DetailMembers />} />
