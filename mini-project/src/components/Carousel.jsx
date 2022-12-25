@@ -17,52 +17,7 @@ const Carousel = () => {
     return acc;
   }, {});
 
-  /* const scrollToImage = (i) => {
-    setCurrentImage(i);
-
-    refs[i].current.scrollIntoView({
-      behavior: "smooth",
-      block: "nearest",
-      inline: "start",
-    });
-  };
-
-  const totalImages = images.length;
-
-  // Below functions will assure that after last image we'll scroll back to the start,
-  // or another way round - first to last in previousImage method.
-  const nextImage = () => {
-    if (currentImage >= totalImages - 1) {
-      scrollToImage(0);
-    } else {
-      scrollToImage(currentImage + 1);
-    }
-  };
-
-  const previousImage = () => {
-    if (currentImage === 0) {
-      scrollToImage(totalImages - 1);
-    } else {
-      scrollToImage(currentImage - 1);
-    }
-  };
-
-  // Tailwind styles. Most importantly notice position absolute, this will sit relative to the carousel's outer div.
-  const arrowStyle =
-    "absolute text-white text-2xl z-10 bg-black h-10 w-10 rounded-full opacity-75 flex items-center justify-center";
-
-  const sliderControl = (isLeft) => (
-    <button
-      type="button"
-      onClick={isLeft ? previousImage : nextImage}
-      className={`${arrowStyle} ${isLeft ? "left-2" : "right-2"}`}
-      style={{ top: "40%" }}
-    >
-      <span role="img" aria-label={`Arrow ${isLeft ? "left" : "right"}`}>
-        {isLeft ? "◀" : "▶"}
-      </span>
-    </button> 
-  );*/
+ 
   return (
     <>
       {/* <div  className='12pro:mt-custom-2px 12pro: justify-center 12pro:items-center 12pro:border-0'>
@@ -73,7 +28,6 @@ const Carousel = () => {
         <div className="12pro:relative 12pro:w-auto 12pro:h-56 md:w-auto md:h-56 md:relative lg:w-auto lg:relative lg:h-56 xl:relative xl:w-auto xl:h-72 12pro:mt-40">
           {/* ini div pembungkus bungkus img */}
           <div className="12pro:inline-flex overflow-x-auto 12pro:snap-mandatory 12pro:overflow-auto 12pro:touch-auto md:inline-flex md:snap-mandatory md:overflow-auto md:touch-auto lg:inline-flex  lg:snap-mandatory  lg:touch-auto xl:inline-flex  xl:snap-mandatory  xl:touch-auto">
-            {/* {sliderControl(true)} */}
             {images.map((img, i) => (
               /* ini div bungkus img */
               <div
@@ -88,7 +42,6 @@ const Carousel = () => {
                 />
               </div>
             ))}
-            {/* {sliderControl()} */}
           </div>
         </div>
       </div>
